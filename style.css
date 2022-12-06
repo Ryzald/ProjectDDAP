@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-navbar {
+  background-color: #d1fbfd !important;
+}
+.fh-100 {
+  min-height: 110vh;
+}
+.fh-80 {
+  min-height: 80vh;
+}
+.w-14 {
+  width: 14% !important;
+}
+.rounded-50 {
+  border-radius: 50px;
+}
+.bg-jumbotron {
+  background: linear-gradient(238.97deg, #2046dc 10.24%, #20a4dc 110.98%);
+}
+.bg-keraguan {
+  background: linear-gradient(229.88deg, #20a4dc 14.99%, #2046dc 117.48%);
+}
+.mt-min-10 {
+  padding-top: -100px;
+}
+.absolut {
+  position: absolute;
+  top: 300px;
+}
+.rounded-bawah {
+  border-radius: 0px 0px 60px 60px;
+}
+.rounded-atas {
+  border-radius: 60px 60px 0px 0px;
+}
+.kata-kata {
+  font-size: 100px;
+  font-weight: 1000;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.text-birugelap {
+  color: #2046e6;
+}
+.text-biruterang {
+  color: #20a4dc;
+}
+
+@media screen and (max-width: 1000px) {
+  #laptop {
+    display: none;
+  }
+
+  .kata-kata {
+    font-size: 10px;
+  }
+}
