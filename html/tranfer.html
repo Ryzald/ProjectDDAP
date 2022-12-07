@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-navbar">
+    <!-- navbar -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-light mt-2 mx-3 rounded bg-navbar fixed-top fw-bold"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 mt-0">
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Produk</a>
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Promo</a>
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Karir</a>
+              <a class="nav-link w-14 text-center p-0" href="#" id="logonavbar"
+                ><img src="../assets/logobayarin.svg" alt="" height="28"
+              /></a>
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#"
+                >Tentang Kami</a
+              >
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
+              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end of navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron bg-jumbotron rounded-bawah">
+      <div class="row mt-navbar container mx-auto mb-5">
+        <div class="col-lg-5">
+          <img src="../assets/pembayaran1.svg" alt="" width="100%" />
+        </div>
+        <div class="col-lg-7 my-auto">
+          <h2 class="text-light fw-bold">Pembayaran</h2>
+          <p class="text-light">
+            Langkah praktis bayar tagihan dan tranfer uang
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end jumboron -->
+
+    <!-- Penjelasan -->
+    <div class="row mt-navbar container mx-auto mb-5">
+      <div class="col-lg-4">
+        <img src="../assets/ingfobiru.svg" alt="" width="100%" />
+      </div>
+      <div class="col-lg-8 my-auto ps-lg-5">
+        <h3 class="text-dark fw-bold">Apa itu Pembayaran ?</h3>
+        <p class="text-dark">
+          Pembayaran adalah salah satu fitur dari Bayarin diman akan melakukan
+          pembayaran dengan intergrasi dari beberapa dompet digital yang telah
+          didaftarkan.
+        </p>
+      </div>
+    </div>
+
+    <!-- end penjelasan -->
+
+    <!-- tata cara -->
+    <div class="container">
+      <h3 class="fw-bold">Cara Penggunaan</h3>
+
+      <!-- carousel -->
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide b"
+        data-bs-touch="false"
+      >
+        <div
+          class="carousel-inner mt-lg-5 text-center bg-step rounded-5 py-lg-5"
+        >
+          <div class="carousel-item active">
+            <h4 class="fw-bold mb-lg-4">Langkah 1</h4>
+            <p>Pilih Pembayaran pada halaman beranda</p>
+          </div>
+          <div class="carousel-item">
+            <h4 class="fw-bold mb-lg-4">Langkah 2</h4>
+            <p>Pilih jenis tagihan yang akan kamu bayarkan</p>
+          </div>
+          <div class="carousel-item">
+            <h4 class="fw-bold mb-lg-4">Langkah 3</h4>
+            <p>pilih penyedia layanan</p>
+          </div>
+          <div class="carousel-item">
+            <h4 class="fw-bold mb-lg-4">Langkah 4</h4>
+            <p>Masukkan jumlah tagihan</p>
+          </div>
+          <div class="carousel-item">
+            <h4 class="fw-bold mb-lg-4">Langkah 5</h4>
+            <p>Konfirmasi pembayaran kamu</p>
+          </div>
+          <div class="carousel-item">
+            <h4 class="fw-bold mb-lg-4">Langkah 6</h4>
+            <p>jika sudah selesai pilih bayar sekarang</p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end carousel -->
+    </div>
+    <!-- end tata cara -->
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

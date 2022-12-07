@@ -48,6 +48,28 @@ body {
 .text-biruterang {
   color: #20a4dc;
 }
+.bg-ungu-ingfo {
+  background: linear-gradient(12.02deg, #1735bd 60.55%, #d1fbfd 143.1%);
+}
+.bg-ijo-ingfo {
+  background: linear-gradient(44deg, #20dcb6 73.82%, #d1fbfd 130.98%);
+}
+.bg-oren2-ingfo {
+  background: linear-gradient(35.97deg, #f4ad77 69.64%, #d1fbfd 152.56%);
+}
+.bg-oren-ingfo {
+  background: linear-gradient(34.97deg, #ea8a54 61.59%, #d1fbfd 168.78%);
+}
+.bg-biru-ingfo {
+  background: linear-gradient(37.7deg, #20a4dc 65.02%, #d1fbfd 199.34%);
+}
+.mt-navbar {
+  padding-top: 80px;
+}
+.bg-step {
+  background: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
 
 @media screen and (max-width: 1000px) {
   #laptop {
@@ -56,5 +78,8 @@ body {
 
   .kata-kata {
     font-size: 10px;
+  }
+  .rounded-bawah {
+    border-radius: 0px 0px 20px 20px;
   }
 }
