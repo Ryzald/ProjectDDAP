@@ -80,7 +80,7 @@ body {
   background: linear-gradient(37.7deg, #20a4dc 65.02%, #d1fbfd 199.34%);
 }
 .mt-navbar {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .bg-step {
   background: rgba(0, 0, 0, 0.2);
@@ -92,7 +92,17 @@ body {
   color: white;
   font-weight: 500;
 }
+.tombol-biru {
+  font-size: 16px;
+  border: 3px solid #1e42d0;
+  color: #1e42d0;
+  font-weight: 500;
+}
 
+.tombol-biru:hover {
+  background-color: #1e42d0;
+  color: white;
+}
 .tombol:hover {
   background-color: white;
   color: black;
@@ -116,6 +126,15 @@ body {
 .text-birugelap {
   color: #2046dc;
 }
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
 @media screen and (max-width: 1000px) {
   #laptop {
     display: none;
@@ -131,6 +150,12 @@ body {
     display: none;
   }
   #IDM {
+    display: none;
+  }
+  #guruPrivat {
+    display: none;
+  }
+  #toa {
     display: none;
   }
 }

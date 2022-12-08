@@ -17,7 +17,7 @@
     <!-- navbar -->
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-light mt-2 mx-3 rounded bg-navbar fixed-top fw-bold"
+        class="navbar navbar-expand-lg bg-light mt-2 mx-3 rounded bg-light fixed-top fw-bold"
       >
         <div class="container-fluid">
           <button
@@ -32,18 +32,46 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav w-100 mt-0">
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Produk</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Promo</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Karir</a>
-              <a class="nav-link w-14 text-center p-0" href="#" id="logonavbar"
+            <div
+              class="navbar-nav w-100 mt-0 text-center d-flex justify-content-center me-5"
+            >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="index.html#produk"
+                >Produk</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="index.html#promo"
+                >Promo</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="index.html#karir"
+                >Karir</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 zoom"
+                href="index.html"
+                id="logonavbar"
                 ><img src="assets/logobayarin.svg" alt="" height="28"
               /></a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#"
+              <a
+                class="nav-link w-14 text-center p-0 fs-5 bgd"
+                href="html/AboutUs.html"
                 >Tentang Kami</a
               >
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="html/Bantuan.html"
+                >Bantuan</a
+              >
+              <a
+                class="nav-link text-center px-3 p-0 fs-5 tombol-biru rounded-pill"
+                href="https://play.google.com/store/apps"
+                target="_blank"
+                >Download</a
+              >
             </div>
           </div>
         </div>
@@ -53,8 +81,7 @@
 
     <!-- jumbotron -->
     <div class="jumbotron bg-jumbotron fh-100 rounded-bawah">
-      <br /><br /><br /><br />
-      <div class="container row bg mx-auto">
+      <div class="container row bg mx-auto mt-navbar">
         <!-- kolom kiri -->
         <div class="col-lg-7">
           <img
@@ -72,18 +99,42 @@
             Bertransaksi antar berbagai dompet digital menjadi lebih mudah untuk
             kehidupan yang lebih baik bisa dimulai dari bayarin
           </h5>
-          <div class="row text-center mt-5">
+          <div class="row text-center mt-5 mb-5">
             <div class="col-lg-6 mt-5">
-              <img src="assets/appstore.svg" alt="" class="w-75" />
+              <a
+                href="https://www.apple.com/id/app-store/"
+                target="_blank"
+                class="zoom"
+              >
+                <img
+                  src="assets/appstore.svg"
+                  class="zoom"
+                  alt=""
+                  class="w-75"
+                />
+              </a>
             </div>
             <div class="col-lg-6 mt-5 mb-5">
-              <img src="assets/playstore.svg" alt="" class="w-75" />
+              <a href="https://play.google.com/" target="_blank">
+                <img
+                  src="assets/playstore.svg"
+                  class="zoom"
+                  alt=""
+                  class="w-75"
+                />
+              </a>
             </div>
           </div>
         </div>
         <div class="col-lg-5">
           <a href="" id="laptop" class="absolut">
-            <img id="laptop" src="assets/laptop.png" width="70%" alt="" />
+            <img
+              id="laptop"
+              src="assets/laptop.png"
+              class="zoom"
+              width="70%"
+              alt=""
+            />
           </a>
         </div>
       </div>
@@ -107,13 +158,12 @@
         </div>
 
         <!-- testimoni -->
-        <div class="col-lg-10 bg-navbar mt-5 mx-auto rounded-50">
+        <div class="col-lg-10 bg-navbar mt-5 mx-auto rounded-50 px-4">
           <div class="row mx-auto rounded py-5 ms-auto me-auto">
-            <div class="col-lg-1"><br /></div>
             <div class="col-lg-3">
               <img src="assets/fotoRizal.png" alt="" width="100%" /> <br />
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 mt-2">
               <h4>
                 “Bayarin ini aplikasi yang inovatif banget sih. Setelah pake
                 aplikasi ini udah ga bingung lagi buat transaksi antar e-wallet.
@@ -125,14 +175,13 @@
                 Sistem Informasi, Universitas Brawijaya - Malang
               </p>
             </div>
-            <div class="col-lg-1"></div>
           </div>
         </div>
       </div>
 
       <!-- kelebihan end -->
 
-      <div class="container mt-5">
+      <div class="container mt-5" id="produk">
         <h3 class="mb-4 text-light fw-bold">Apa aja di Bayarin ?</h3>
 
         <div class="row container mx-auto">
@@ -168,7 +217,7 @@
               <!-- pembayaran end -->
 
               <!-- Tranfer -->
-              <div class="col-lg-8">
+              <div class="col-lg-8 mb-3">
                 <div class="col">
                   <div
                     class="bg-oren-ingfo rounded-4 position-relative border-transparan"
@@ -186,7 +235,7 @@
                     </div>
 
                     <a
-                      href="html/pembayaran.html"
+                      href="html/tranfer.html"
                       class="btn tombol rounded-pill px-3 position-absolute bottom-0 end-0 me-3 mb-3"
                       >Selengkapnya</a
                     >
@@ -199,7 +248,7 @@
             <!-- row kanan atas -->
             <div class="row">
               <!-- reward -->
-              <div class="col-lg-8">
+              <div class="col-lg-8 mb-3">
                 <div class="">
                   <div
                     class="rounded-4 position-relative border-ijo bg-ijo-ingfo"
@@ -218,7 +267,7 @@
                     </div>
 
                     <a
-                      href="html/pembayaran.html"
+                      href="html/reward.html"
                       class="btn tombol rounded-pill px-3 position-absolute bottom-0 end-0 me-3 mb-3"
                       >Selengkapnya</a
                     >
@@ -247,7 +296,7 @@
                       </p>
                     </div>
                     <a
-                      href="html/pembayaran.html"
+                      href="html/cashback.html"
                       class="btn tombol rounded-pill px-3 position-absolute bottom-0 end-0 me-3 mb-3"
                       >Selengkapnya</a
                     >
@@ -274,6 +323,11 @@
                 </p>
               </div>
             </div>
+            <a
+              href="html/integrasiDompet.html"
+              class="btn tombol rounded-pill px-3 position-absolute bottom-0 end-0 me-3 mb-3"
+              >Selengkapnya</a
+            >
           </div>
         </div>
       </div>
@@ -281,7 +335,7 @@
     </div>
 
     <!-- promo -->
-    <div class="container mt-5 fh-80">
+    <div class="container mt-5 fh-80" id="promo">
       <h2 class="text-center text-birugelap fw-bold mb-5">
         Promo menarik buat kamu!
       </h2>
@@ -299,7 +353,7 @@
               </h3>
 
               <a
-                href="html/pembayaran.html"
+                href="html/maintenance.html"
                 class="btn tombol rounded-pill px-3 me-3 mb-3"
                 >Lihat info selengkapnya</a
               >
@@ -318,7 +372,7 @@
               </h3>
 
               <a
-                href="html/pembayaran.html"
+                href="html/maintenance.html"
                 class="btn tombol rounded-pill px-3 mb-3"
                 >Lihat info selengkapnya</a
               >
@@ -337,7 +391,7 @@
               </h3>
 
               <a
-                href="html/pembayaran.html"
+                href="html/maintenance.html"
                 class="btn tombol rounded-pill px-3 mb-3"
                 >Lihat info selengkapnya</a
               >
@@ -349,7 +403,7 @@
     <!-- promo end -->
 
     <!-- mitra dan karir -->
-    <div class="container">
+    <div class="container" id="karir">
       <h2 class="text-center text-birugelap fw-bold my-5">
         Mau jadi mitra bayarin?
       </h2>
@@ -367,7 +421,7 @@
               >
             </div>
             <div class="col-sm-4">
-              <img src="assets/toa.svg" alt="" width="100%" />
+              <img src="assets/toa.svg" alt="" width="100%" id="toa" />
             </div>
           </div>
         </div>
@@ -383,13 +437,20 @@
               >
             </div>
             <div class="col-sm-4">
-              <img src="assets/guruprivat.svg" alt="" width="100%" />
+              <img
+                src="assets/guruprivat.svg"
+                alt=""
+                width="100%"
+                id="guruPrivat"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- endmitra dan karir -->
+
+    <!-- footer -->
     <br /><br /><br /><br /><br />
     <footer class="bg-footer">
       <div class="py-5 text-center container text-light">
@@ -399,14 +460,28 @@
           nikmati semua fitur Bayarin.
         </p>
         <div class="row text-center pt-5">
-          <div class="col-md-4"></div>
-          <div class="col-md-2">
-            <img src="assets/appstore.svg" alt="" class="w-100" />
+          <div class="col-md-3"></div>
+          <div class="col-md-2 mb-2">
+            <a
+              href="https://www.apple.com/id/app-store/"
+              target="_blank"
+              class="zoom"
+            >
+              <img src="assets/appstore.svg" class="zoom" alt="" class="w-75" />
+            </a>
           </div>
+          <div class="col-md-2"></div>
           <div class="col-md-2">
-            <img src="assets/playstore.svg" alt="" class="w-100" />
+            <a href="https://play.google.com/" target="_blank">
+              <img
+                src="assets/playstore.svg"
+                class="zoom"
+                alt=""
+                class="w-75"
+              />
+            </a>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
 
@@ -468,7 +543,7 @@
         <img src="assets/OJK 1.png" alt="" width="180px" />
       </div>
     </footer>
-
+    <!-- end footer -->
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
   </body>
 </html>

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="../assets/logobayarin.svg" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Karir</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="../style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,100 +80,50 @@
 
     <!-- jumbotron -->
     <div class="jumbotron bg-jumbotron rounded-bawah mt-navbar">
-      <div class="row mt-navbar container mx-auto mb-5">
+      <div class="row mt-navbar container mx-auto">
         <div class="col-lg-5 mb-lg-5">
-          <img src="../assets/reward1.svg" alt="" width="100%" />
+          <img src="../assets/karir.svg" alt="" width="100%" />
         </div>
         <div class="col-lg-7 my-auto ps-lg-5">
-          <h2 class="text-light fw-bold">Reward</h2>
+          <h2 class="text-light fw-bold">Bayarin Careers</h2>
           <p class="text-light">
-            Langkah praktis bayar tagihan dan tranfer uang
+            Berpetualang bersama kami, karena kesempatan tidak datang dua kali
           </p>
         </div>
       </div>
     </div>
     <!-- end jumboron -->
 
-    <!-- Penjelasan -->
-    <div class="row mt-navbar container mx-auto mb-5">
-      <div class="col-lg-4">
-        <img src="../assets/reward2.svg" alt="" width="90%" />
+    <!-- dropdown and search -->
+    <div class="row g-3 mx-3 bg-navbar shadow pb-2 mt-0 container mx-auto">
+      <div class="col-md-3">
+        <select id="inputState" class="form-select">
+          <option selected>Kantor Cabang</option>
+          <option>Sidoarjo</option>
+          <option>Malang</option>
+          <option>Semarang</option>
+        </select>
       </div>
-      <div class="col-lg-8 my-auto ps-lg-5 pt-3">
-        <h3 class="text-dark fw-bold">Apa itu reward ?</h3>
-        <p class="text-dark">
-          Kamu bisa mendapatkan berbagai macam keuntungan, salah satunya adalah
-          diskon merchant.
-        </p>
+      <div class="col-md-9">
+        <form class="d-flex" role="search" href="karirResult.html">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Cari Posisi..."
+            aria-label="Search"
+          />
+          <a class="btn btn-outline-info" href="karirResult.html" role="button"
+            >Cari</a
+          >
+        </form>
       </div>
     </div>
+    <!-- end dropdown and search -->
 
-    <!-- end penjelasan -->
+    <!-- maintenance -->
+    <div class="fh-80 position-relative my-auto mt-5 text-center"></div>
+    <!-- end maintenance -->
 
-    <!-- tata cara -->
-    <div class="container">
-      <h3 class="fw-bold">Cara Penggunaan</h3>
-
-      <!-- carousel -->
-      <div
-        id="carouselExampleControlsNoTouching"
-        class="carousel slide b"
-        data-bs-touch="false"
-      >
-        <div
-          class="carousel-inner mt-lg-5 text-center bg-step rounded-5 py-lg-5"
-        >
-          <div class="carousel-item px-3 active">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 1</h4>
-            <p>Pilih dan jelajahi Rewards yang Anda inginkan.</p>
-          </div>
-          <div class="carousel-item px-3">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 2</h4>
-
-            <p>Pilih voucher lalu tekan “Tukar”.</p>
-          </div>
-          <div class="carousel-item px-3">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 3</h4>
-            <p>Pilih “Konfirmasi” untuk melanjutkan penukaran poin.</p>
-          </div>
-          <div class="carousel-item px-3">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 4</h4>
-            <p>Masukkan PIN Bayarin Anda.</p>
-          </div>
-          <div class="carousel-item px-3">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 5</h4>
-            <p>Penukaran voucher telah berhasil ditukarkan.</p>
-          </div>
-          <div class="carousel-item px-3">
-            <h4 class="fw-bold mb-lg-4 pt-3">Langkah 6</h4>
-            <p>
-              Voucher akan tersimpan di menu “Reward Saya”. Gunakan voucher
-              sebelum kadaluwarsa.
-            </p>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControlsNoTouching"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControlsNoTouching"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- end carousel -->
-    </div>
-    <!-- end tata cara -->
     <!-- footer -->
     <br /><br /><br /><br /><br />
     <footer class="bg-footer">

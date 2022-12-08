@@ -17,7 +17,7 @@
     <!-- navbar -->
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-light mt-2 mx-3 rounded bg-navbar fixed-top fw-bold"
+        class="navbar navbar-expand-lg bg-light mt-2 mx-3 rounded bg-light fixed-top fw-bold"
       >
         <div class="container-fluid">
           <button
@@ -32,18 +32,44 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav w-100 mt-0">
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Produk</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Promo</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Karir</a>
-              <a class="nav-link w-14 text-center p-0" href="#" id="logonavbar"
+            <div
+              class="navbar-nav w-100 mt-0 text-center d-flex justify-content-center me-5"
+            >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="../index.html#produk"
+                >Produk</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="../index.html#promo"
+                >Promo</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 fs-5"
+                href="../index.html#karir"
+                >Karir</a
+              >
+              <a
+                class="nav-link w-14 text-center p-0 zoom"
+                href="../index.html"
+                id="logonavbar"
                 ><img src="../assets/logobayarin.svg" alt="" height="28"
               /></a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#"
+              <a
+                class="nav-link w-14 text-center p-0 fs-5 bgd"
+                href="AboutUs.html"
                 >Tentang Kami</a
               >
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
-              <a class="nav-link w-14 text-center p-0 fs-5" href="#">Bantuan</a>
+              <a class="nav-link w-14 text-center p-0 fs-5" href="Bantuan.html"
+                >Bantuan</a
+              >
+              <a
+                class="nav-link text-center px-3 p-0 fs-5 tombol-biru rounded-pill"
+                href="https://play.google.com/store/apps"
+                target="_blank"
+                >Download</a
+              >
             </div>
           </div>
         </div>
@@ -52,7 +78,7 @@
     <!-- end of navbar -->
 
     <!-- jumbotron -->
-    <div class="jumbotron bg-jumbotron rounded-bawah">
+    <div class="jumbotron bg-jumbotron rounded-bawah mt-navbar">
       <div class="row mt-navbar container mx-auto mb-5">
         <div class="col-lg-5">
           <img src="../assets/pembayaran1.svg" alt="" width="100%" />
@@ -144,6 +170,7 @@
       <!-- end carousel -->
     </div>
     <!-- end tata cara -->
+
     <!-- footer -->
     <br /><br /><br /><br /><br />
     <footer class="bg-footer">
@@ -154,14 +181,33 @@
           nikmati semua fitur Bayarin.
         </p>
         <div class="row text-center pt-5">
-          <div class="col-md-4"></div>
-          <div class="col-md-2">
-            <img src="../assets/appstore.svg" alt="" class="w-100" />
+          <div class="col-md-3"></div>
+          <div class="col-md-2 mb-2">
+            <a
+              href="https://www.apple.com/id/app-store/"
+              target="_blank"
+              class="zoom"
+            >
+              <img
+                src="../assets/appstore.svg"
+                class="zoom"
+                alt=""
+                class="w-75"
+              />
+            </a>
           </div>
+          <div class="col-md-2"></div>
           <div class="col-md-2">
-            <img src="../assets/playstore.svg" alt="" class="w-100" />
+            <a href="https://play.google.com/" target="_blank">
+              <img
+                src="../assets/playstore.svg"
+                class="zoom"
+                alt=""
+                class="w-75"
+              />
+            </a>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
 
@@ -170,24 +216,29 @@
           <a class="navbar-brand" href="#"
             ><img src="../assets/logoterang.svg" alt="" width="150px"
           /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto fw-bold text-light">
-              <a class="nav-link text-light" href="#">Tentang Bayarin</a>
-              <a class="nav-link text-light" href="#">Hubungi Kami</a>
-              <a class="nav-link text-light" href="#">Bantuan</a>
-            </div>
-          </div>
+          <ul class="nav justify-content-end text-light">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="AboutUs.html"
+                ><h5>Tentang Bayarin</h5></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="FAQ.html"
+                ><h5>FAQ</h5></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="Bantuan.html"
+                ><h5>Bantuan</h5></a
+              >
+            </li>
+          </ul>
         </div>
       </nav>
 
@@ -202,17 +253,29 @@
         <div class="col-md-6">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.youtube.com/"
+                target="_blank"
                 ><img src="../assets/logoyutub.svg" alt="" width="30px"
               /></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://twitter.com/"
+                target="_blank"
                 ><img src="../assets/logotwitter.svg" alt="" width="30px"
               /></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.instagram.com/"
+                target="_blank"
                 ><img src="../assets/logoIg.svg" alt="" width="30px"
               /></a>
             </li>
